@@ -1,0 +1,20 @@
+[22-Apr-2017 20:10:44 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contrasena' in 'where clause'' in /home/jomapps/public_html/daextra/admin/login.php:11
+Stack trace:
+#0 /home/jomapps/public_html/daextra/admin/login.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/jomapps/public_html/daextra/admin/login.php on line 11
+[22-Apr-2017 20:11:36 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contrasena' in 'where clause'' in /home/jomapps/public_html/daextra/admin/login.php:11
+Stack trace:
+#0 /home/jomapps/public_html/daextra/admin/login.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/jomapps/public_html/daextra/admin/login.php on line 11
+[22-Apr-2017 20:11:38 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contrasena' in 'where clause'' in /home/jomapps/public_html/daextra/admin/login.php:11
+Stack trace:
+#0 /home/jomapps/public_html/daextra/admin/login.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/jomapps/public_html/daextra/admin/login.php on line 11
+[22-Apr-2017 20:11:56 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'estado' in 'where clause'' in /home/jomapps/public_html/daextra/admin/login.php:11
+Stack trace:
+#0 /home/jomapps/public_html/daextra/admin/login.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/jomapps/public_html/daextra/admin/login.php on line 11

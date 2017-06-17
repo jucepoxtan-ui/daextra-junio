@@ -1,0 +1,491 @@
+/*NAVBAR*/
+
+/*NAVBAR*/
+
+/*BOTONES*/
+
+/*BOTONES*/
+/*COLUMNAS AGREGADAS*/
+.text-input-id {
+  font-size: 13px;
+}
+
+/*ESTILOS AGREGADOS*/
+.icon-border-radius {
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 5px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #414654 !important;
+}
+.social-buttons .i {
+  padding-right: 20px;
+}
+.text-slide- {
+  /*font-size: 130px;*/
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.text-slide {
+  font-size: 20px;
+  font-weight: 100;
+}
+.logo-extra-login {
+  padding-bottom: 10px;
+}
+.text-mensaje {
+  padding-top: 30px;
+  font-size: 30px;
+  text-align: left;
+}
+.h2-slider-item {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 100;
+}
+/*TIPOGRAFIAS*/
+.modal-dialog {
+  width: 500px !important;
+}
+.text-muli-100 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+}
+.text-muli-200 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+}
+.text-muli-300 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+.text-muli-400 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+.text-muli-600 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+.text-muli-700 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+.text-muli-800 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+.text-muli-900 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+}
+/*TIPOGRAFIAS*/
+
+/*PADDINGS*/
+.padding-50 {
+  padding: 20px;
+}
+.caja-iconos {
+  padding-top: 48px;
+  padding-bottom: 40px;
+  font-size: 30px;
+  line-height: 40px;
+}
+.box-registro--btn {
+  padding: 40px;
+}
+.text-white {
+  color: white;
+  /*text-shadow: 10px 5px 10px black;*/
+}
+.h2-des {
+  font-size: 30px;
+}
+.respuesta-p {
+  font-size: 20px;
+  font-weight: 100;
+}
+.pregunta-h3 {
+  font-size: 40px;
+  font-weight: bold;
+  /*font-family: 'spoon-bolduploaded_file';*/
+  font-family: 'Nunito', sans-serif;
+}
+.logo-daextra {
+  margin-top: -15px;
+}
+.btn-call-registro {
+/*
+  margin: 30px;
+  padding: 30px;
+*/
+  border: 2px solid #39b54a;
+  background: transparent;
+  color: #39b54a;
+  font-size: 30px;
+}
+.btn-registro {
+  background: #39B54A !important;
+  /*margin: 50px !important;*/
+  padding: 30px !important;
+  margin-bottom: 50px;
+}
+.btn-registrate {
+  background: #39B54A !important;
+  padding: 10px !important;
+  font-size: 20px;
+  background: black;
+}
+.btn-entrar {
+  background: #29ABE2 !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  font-size: 25px;
+}
+.btn-centrado {
+  margin: 0 !important;
+}
+.daextra {
+  background-color:white !important;
+}
+.daextra {
+  background: white;
+  /*margin-top: 120px;*/
+  margin-bottom: 200px;
+}
+.video-daextra {
+  /*background-image: url("../img/background-slider-2.jpg");*/
+  /*margin-top: 120px;*/
+  /*  margin-bottom: 120px;*/
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.img-tabla-extra {
+  width: auto;
+}
+.section-testimonios {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.seguro-container {
+  background-image: url('../img/background-daextra-final.jpg');
+  /*background: #39B54A;*/
+  padding: 120px 0 120px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.como-ser-parte {
+  padding-top: 10px;
+}
+.p-sub {
+padding-top: 30px;
+}
+.slide-header {
+  background-image: url("../img/daextra-background-feliz.jpg");
+  padding: 120px 0 120px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-back {
+  background-image: url("../img/background-slider-3.jpg");
+}
+.cab-sli-h1 {
+  font-weight: 900;
+  color: #5A5A5A;
+  text-shadow: none;
+}
+.caja-blanca {
+  background: white;
+}
+.sec-por-que {
+    padding: 100px 0 100px 0;
+    background: #39B54A;
+    color: white;
+}
+.text-red-h2 {
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 100px;
+  font-size: 45px !important;
+  line-height: 1.5;
+}
+.text-h2-ideados {
+  font-size: 50px !important;
+  margin-right: 100px;
+  line-height: 1.5
+}
+.img-videoicon {
+  width: 50%;
+  margin-bottom: 100px;
+}
+.img-50 {
+  /*position: absolute;*/
+}
+.h2-slider {
+  color: #5A5A5A;
+  margin-top: -20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px !important;
+  text-shadow: none !important;
+  /*text-align: left;*/
+  letter-spacing: -2px;
+}
+.h1-slider {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3em !important;
+  color: white !important;
+  letter-spacing: -4px;
+  text-shadow: 10px 0 20px black;
+  padding-top: 260px;
+}
+/*ESTILOS AGREGADOS*/
+.img-money {
+  margin-top: -10px;
+  width: 60%;
+}
+.navbar .navbar-nav > li > a {
+  font-size: 18px !important;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300 !important;
+  margin-top: 10px;
+}
+.modal {
+  background: rgba(0, 0, 0, 0.65) !important;
+}
+.caja-tuextra {
+  padding: 100px 0 100px;
+  /*padding-bottom: 100px;*/
+  margin: 10px;
+}
+.info-title {
+  /*font-family: 'spoon-bolduploaded_file', sans-serif;*/
+  font-size: 3.2em !important;
+  color: #383838 !important;
+}
+.text-seguro {
+  font-size: 2em;
+  padding: 20px;
+  margin: 20px;
+  background: rgba(51, 122, 183, 0.74);
+  color: white;
+}
+.img-extramoney {
+  padding: 120px 0 180px;
+}
+.logo-white {
+  margin-right: 80px;
+}
+.des-padding {
+  padding-left: 20px;
+}
+.img-scroll {
+  width: 200px !important;
+}
+
+/*COMO FUNCIONA*/
+.secction-como-funciona {
+  padding-top: 100px;
+  /*background-image: url("../img/fondo-daextra-scape.jpg");*/
+  background: #39B54A;
+  padding: 100px 0 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.como-funciona-text {
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1px;
+  line-height: 60px;
+}
+.section-etapas {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.etapas-col {
+  padding-top: 20px;
+}
+.bt-index {
+  z-index: 2;
+}
+/*PANEL ADMIN*/
+.box-fileinput {
+  padding-top: 100px;
+}
+.alert{
+  margin-bottom: 0px !important;
+}
+.nopadding {
+  padding: none !important;
+  margin: none !important;
+}
+/*PANEL ADMIN*/
+
+/*TESTIMONIOS*/
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+.testimonial{
+    margin:0 10px;
+    overflow: hidden;
+}
+.testimonial .pic{
+    width:120px;
+    height:120px;
+    border:2px solid #f2f2f2;
+    border-radius: 50%;
+    padding:5px;
+    margin: 0 auto 25px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius:50%;
+}
+.testimonial .testimonial-content{
+    padding: 20px 20px 20px 80px ;
+    background: #efefef;
+    border-radius: 0 0 0 70px;
+    border-left: 2px solid #444;
+    border-right: 4px solid #1c9690;
+    text-align: right;
+    position: relative;
+}
+.testimonial .testimonial-content:before{
+    content: "\f10d";
+    font-family: fontawesome;
+    position: absolute;
+    top:0;
+    left:20px;
+    font-size: 60px;
+    color: #68C9C4;
+}
+.testimonial .testimonial-content:after{
+    content: "";
+    border-bottom: 15px solid #efefef;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: 46%;
+}
+.testimonial .testimonial-title{
+    margin: 0 0 10px 0;
+}
+.testimonial .testimonial-title a{
+    font-size: 16px;
+    font-weight: bold;
+    color:#333;
+    text-transform:capitalize;
+    text-align:center;
+    display: block;
+}
+.testimonial .testimonial-title a:hover{
+    text-decoration: none;
+    color:#1c9690;
+}
+.testimonial .description{
+    font-size: 15px;
+    line-height:24px;
+    color:#555;
+    margin-bottom:20px;
+    font-style: italic;
+}
+.owl-pagination{
+    margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background:#1c9690;
+}
+@media only screen and (max-width: 479px) {
+    .testimonial .testimonial-content{
+        padding: 20px 20px 20px 70px;
+    }
+    .testimonial .testimonial-content::before{
+        font-size: 50px;
+        left: 17px;
+    }
+}
+/*TESTIMONIOS*/
+/*COMO FUNCIONA SECTION*/
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+  .hero h1 { font-size: 4em; 
+    }
+  .img-videoicon {
+    width: 100%;
+    }
+  .text-h2-ideados {
+  font-size: 35px !important;
+  width: 300px;
+    }    
+  .h2-slider {
+    font-size: 45px !important;
+    margin-top: -35px !important;
+  }
+  .h1-slider {
+    font-size: 20px !important;
+    margin-top: 10px !important;
+  }
+  .text-mensaje  {
+    font-size: 35px;
+    padding: none;
+  }
+  .img-testimonio {
+    width: 50%;
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+  .text-slide- {
+  /*font-size: 18px;*/
+  font-size: 16px;
+  /*padding-top: 20px;*/
+  padding-bottom: 100px;
+  }
+  .img-extramoney {
+    padding: 20px 0 50px;
+  }
+  .btn-right {
+    padding-right: 20px;
+  }
+  .h2-des {
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  .etapas-col {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .como-funciona-text {
+    font-size: 30px !important;
+    color: white;
+    letter-spacing: 0;
+  }
+  .modal-dialog {
+  width: auto !important;
+}
+  .logo-daextra {
+  margin-top: 0px !important;
+}
+.text-input-id {
+  font-size: 9px;
+}
+/*  .carousel-inner {
+    height: 1250px;
+  }*/
+}
+ 
+  /*LOGIN MODAL*/

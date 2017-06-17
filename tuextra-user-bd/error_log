@@ -1,0 +1,34 @@
+[06-Jun-2017 21:47:22 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/daextra2017365/public_html/conexion.php on line 2
+[06-Jun-2017 21:47:22 America/Mexico_City] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/daextra2017365/public_html/tuextra-user/index.php on line 51
+[06-Jun-2017 21:47:22 America/Mexico_City] PHP Warning:  mysql_free_result() expects parameter 1 to be resource, boolean given in /home/daextra2017365/public_html/tuextra-user/index.php on line 51
+[06-Jun-2017 21:47:22 America/Mexico_City] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/daextra2017365/public_html/tuextra-user/index.php on line 54
+[06-Jun-2017 21:47:22 America/Mexico_City] PHP Warning:  mysql_free_result() expects parameter 1 to be resource, boolean given in /home/daextra2017365/public_html/tuextra-user/index.php on line 54
+[06-Jun-2017 21:59:54 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/daextra2017365/public_html/conexion.php on line 2
+[06-Jun-2017 21:59:54 America/Mexico_City] PHP Notice:  Undefined variable: fecha_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 295
+[06-Jun-2017 21:59:54 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 306
+[06-Jun-2017 21:59:54 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 313
+[06-Jun-2017 21:59:54 America/Mexico_City] PHP Notice:  Undefined variable: fecha_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 295
+[06-Jun-2017 21:59:54 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 306
+[06-Jun-2017 21:59:54 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 313
+[06-Jun-2017 22:09:59 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/daextra2017365/public_html/conexion.php on line 2
+[06-Jun-2017 22:09:59 America/Mexico_City] PHP Notice:  Undefined variable: fecha_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 295
+[06-Jun-2017 22:09:59 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 306
+[06-Jun-2017 22:09:59 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 313
+[06-Jun-2017 22:09:59 America/Mexico_City] PHP Notice:  Undefined variable: fecha_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 295
+[06-Jun-2017 22:09:59 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 306
+[06-Jun-2017 22:09:59 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 313
+[06-Jun-2017 22:11:41 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/daextra2017365/public_html/conexion.php on line 2
+[06-Jun-2017 22:11:41 America/Mexico_City] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/daextra2017365/public_html/tuextra-user/index.php on line 66
+[06-Jun-2017 22:11:41 America/Mexico_City] PHP Warning:  mysql_free_result() expects parameter 1 to be resource, boolean given in /home/daextra2017365/public_html/tuextra-user/index.php on line 66
+[06-Jun-2017 22:11:41 America/Mexico_City] PHP Notice:  Undefined index: nombre-completo in /home/daextra2017365/public_html/tuextra-user/index.php on line 85
+[06-Jun-2017 22:36:05 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/daextra2017365/public_html/conexion.php on line 2
+[07-Jun-2017 03:19:55 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/daextra2017365/public_html/conexion.php on line 2
+[07-Jun-2017 03:19:55 America/Mexico_City] PHP Notice:  Undefined variable: fecha_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 295
+[07-Jun-2017 03:19:55 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 306
+[07-Jun-2017 03:19:55 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 313
+[07-Jun-2017 03:19:55 America/Mexico_City] PHP Notice:  Undefined variable: fecha_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 295
+[07-Jun-2017 03:19:55 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 306
+[07-Jun-2017 03:19:55 America/Mexico_City] PHP Notice:  Undefined variable: imagen_aportacion in /home/daextra2017365/public_html/tuextra-user/index.php on line 313
+[07-Jun-2017 15:08:08 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/daextra2017365/public_html/conexion.php on line 2
+[07-Jun-2017 15:08:08 America/Mexico_City] PHP Notice:  Undefined index: nombre-completo in /home/daextra2017365/public_html/tuextra-user/index.php on line 85
+[07-Jun-2017 15:20:08 America/Mexico_City] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/daextra2017365/public_html/conexion.php on line 2
