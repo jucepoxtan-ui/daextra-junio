@@ -2,21 +2,41 @@
     <div class="stepwizard">
         <div class="stepwizard-row setup-panel">
             <div class="stepwizard-step">
-                <a href="#nombres" type="button" class="btn btn-primary btn-circle">1</a>
-                <p>Tu primer paso</p>
+                <a href="#terminos" type="button" class="btn btn-primary btn-circle">1</a>
+                <p>Terminos y condiciones</p>
             </div>
             <div class="stepwizard-step">
-                <a href="#importante" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                <a href="#nombre-usuario" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
                 <p>Lo importante</p>
             </div>
-            <!-- <div class="stepwizard-step">
-                <a href="#recibe-extra" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+            <div class="stepwizard-step">
+                <a href="#importantes" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
                 <p>Donde recibiras</p>
-            </div> -->
+            </div>
         </div>
     </div>
+    <!-- EMPIEZA EL FORM -->
     <form method="post" action="tuextra-user/index.php" onsubmit="validar();">
-        <div class="row setup-content" id="nombres">
+        <div class="row setup-content" id="terminos">
+            <div class="col-xs-12">
+                <div class="col-md-12">
+                    <h3 class="text-center">Los primeros pasos son los más importantes</h3>
+                    <div class="embed-responsive embed-responsive-16by9">
+                       <iframe src="include/terminos-iframe.html" id="terminos" class="iframe" name="info" width="100%" height="20%" scrolling="yes" seamless=""></iframe>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="checkbox caja__terminos"><label>
+                            <input type="checkbox" name="optionsCheckboxes" required>
+                                <span class="checkbox-material">Acepto los términos y condiciones</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary nextBtn btn-lg pull-right" type="button">S&iacute;guiente</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row setup-content" id="nombre-usuario">
             <div class="col-xs-12">
                 <div class="col-md-12">
                     <h3 class="text-center">Los primeros pasos son los más importantes</h3>
@@ -90,14 +110,6 @@
                         </div>
                     </div>
                     
-
-                    <div class="col-md-12">
-                        <div class="checkbox caja__terminos"><label>
-                            <input type="checkbox" name="optionsCheckboxes" required>
-                                <span class="checkbox-material">Acepto los términos y condiciones</span>
-                            </label>
-                        </div>
-                    </div>
                     </div>
                     <div class="col-md-12">
                         <button class="btn btn-success btn-lg pull-right btn-block" type="submit">Registrarme</button>
@@ -105,5 +117,6 @@
                 </div>
             </div>
         </div>
+        <!-- TERMINA EL FORM -->
     </form>
 </div>
