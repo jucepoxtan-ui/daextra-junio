@@ -6,7 +6,7 @@
                 <p>Terminos y condiciones</p>
             </div>
             <div class="stepwizard-step">
-                <a href="#nombre-usuario" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                <a href="#nombre-usuario" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
                 <p>Ingresa tus datos</p>
             </div>
             <div class="stepwizard-step">
