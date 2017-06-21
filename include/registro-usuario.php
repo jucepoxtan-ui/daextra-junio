@@ -7,11 +7,11 @@
             </div>
             <div class="stepwizard-step">
                 <a href="#nombre-usuario" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
-                <p>Lo importante</p>
+                <p>Ingresa tus datos</p>
             </div>
             <div class="stepwizard-step">
-                <a href="#importantes" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
-                <p>Donde recibiras</p>
+                <a href="#finaliza" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                <p>Donde recibiras tu extra</p>
             </div>
         </div>
     </div>
@@ -20,9 +20,9 @@
         <div class="row setup-content" id="terminos">
             <div class="col-xs-12">
                 <div class="col-md-12">
-                    <h3 class="text-center">Los primeros pasos son los más importantes</h3>
+                    <h3 class="text-center">Acepta los terminos y condiciones</h3>
                     <div class="embed-responsive embed-responsive-16by9">
-                       <iframe src="include/terminos-iframe.html" id="terminos" class="iframe" name="info" width="100%" height="20%" scrolling="yes" seamless=""></iframe>
+                       <iframe src="include/terminos-iframe.html" id="terminos" class="iframe" name="info" height="300px" scrolling="yes" frameborder="1" seamless=""></iframe>
                     </div>
                     <div class="col-md-12">
                         <div class="checkbox caja__terminos"><label>
@@ -30,8 +30,9 @@
                                 <span class="checkbox-material">Acepto los términos y condiciones</span>
                             </label>
                         </div>
+                        <button class="btn btn-primary nextBtn btn-lg pull-right" type="button">S&iacute;guiente</button>
                     </div>
-                    <button class="btn btn-primary nextBtn btn-lg pull-right" type="button">S&iacute;guiente</button>
+                    
                 </div>
             </div>
         </div>
@@ -68,7 +69,7 @@
                 </div>
             </div>
         </div>
-        <div class="row setup-content" id="importante">
+        <div class="row setup-content" id="finaliza">
             <div class="col-xs-12">
                 <div class="col-md-12">
                     <h3 class="text-center">Los datos más importantes toma tu tiempo</h3>
