@@ -6,7 +6,7 @@
                 <p>Terminos y condiciones</p>
             </div>
             <div class="stepwizard-step">
-                <a href="#nombre-usuario" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                <a href="#nombre-usuario" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
                 <p>Ingresa tus datos</p>
             </div>
             <div class="stepwizard-step">
@@ -21,7 +21,7 @@
             <div class="col-xs-12">
                 <div class="col-md-12">
                     <h3 class="text-center">Acepta los terminos y condiciones</h3>
-                    <div class="embed-responsive embed-responsive-16by9">
+                    <div class="embed-responsive embed-responsive-4by3">
                        <iframe src="include/terminos-iframe.html" id="terminos" class="iframe" name="info" height="300px" scrolling="yes" frameborder="1" seamless=""></iframe>
                     </div>
                     <div class="col-md-12">
@@ -113,7 +113,7 @@
                     
                     </div>
                     <div class="col-md-12">
-                        <button class="btn btn-success btn-lg pull-right btn-block" type="submit">Registrarme</button>
+                        <button class="btn btn-success btn-lg pull-right" type="submit">Registrarme</button>
                     </div>
                 </div>
             </div>
