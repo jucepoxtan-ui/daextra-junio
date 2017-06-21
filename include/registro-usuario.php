@@ -22,7 +22,7 @@
                 <div class="col-md-12">
                     <h3 class="text-center">Acepta los terminos y condiciones</h3>
                     <div class="embed-responsive embed-responsive-4by3">
-                       <iframe src="include/terminos-iframe.html" id="terminos" class="iframe" name="info" height="300px" scrolling="yes" frameborder="1" seamless=""></iframe>
+                       <iframe src="include/terminos-iframe.html" id="terminos" class="iframe" name="terminos-condiciones" height="300px" scrolling="yes" frameborder="3" ></iframe>
                     </div>
                     <div class="col-md-12">
                         <div class="checkbox caja__terminos"><label>

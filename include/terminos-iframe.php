@@ -5,7 +5,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 
-<h5 class="text-center"><strong>CONDICIONES DE USO Y AVISOS LEGALES DEL SITIO WEB WWW.DAEXTRA.NET </strong></h5>
+<strong class="text-center">CONDICIONES DE USO Y AVISOS LEGALES DEL SITIO WEB WWW.DAEXTRA.NET  
+</strong> 
+<br>
 <hr>
 Estos términos y condiciones regirán el uso que usted haga del sitio Web ubicado en WWW.DAEXTRA.NET administrado por "DaExtra". Usted declara tener al menos 18 años de edad y que ha alcanzado la mayoría de edad en la provincia, región o país en el que reside, asimismo declara que toda la información que nos ha proporcionado es correcta.
 <br>
