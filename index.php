@@ -1,44 +1,44 @@
 <?php
-ob_start("ob_gzhandler");
-define('TIMEZONE', 'America/Mexico_City');
-date_default_timezone_set(TIMEZONE);
-setlocale(LC_ALL,"es_ES");
+// ob_start("ob_gzhandler");
+// define('TIMEZONE', 'America/Mexico_City');
+// date_default_timezone_set(TIMEZONE);
+// setlocale(LC_ALL,"es_ES");
 // Conexion a BD
-    require_once("conexion.php");
-    session_start();
+//     require_once("conexion.php");
+//     session_start();
     
-if(isset($_POST["login"])){
-        $sql= "SELECT * FROM usuarios WHERE email = '".$_POST["usuario"]."' AND password= '".$_POST["password"]."' limit 1";    
-        $query=mysql_query($sql) or die(mysql_error());         
-        while ($resultados = mysql_fetch_assoc($query)){
-            $id = $resultados["id"];
-            $nombre = $resultados["nombre"];
-            $usuario = $resultados["usuario"];
-            $password = $resultados["password"];
-            $celular = $resultados["celular"];
-            $patrocinador = $resultados["id_patrocinador"];
-            $depostia_a = $resultados["id_user_deposita_a"];
-        }mysql_free_result($query);
+// if(isset($_POST["login"])){
+//         $sql= "SELECT * FROM usuarios WHERE email = '".$_POST["usuario"]."' AND password= '".$_POST["password"]."' limit 1";    
+//         $query=mysql_query($sql) or die(mysql_error());         
+//         while ($resultados = mysql_fetch_assoc($query)){
+//             $id = $resultados["id"];
+//             $nombre = $resultados["nombre"];
+//             $usuario = $resultados["usuario"];
+//             $password = $resultados["password"];
+//             $celular = $resultados["celular"];
+//             $patrocinador = $resultados["id_patrocinador"];
+//             $depostia_a = $resultados["id_user_deposita_a"];
+//         }mysql_free_result($query);
         
-        $query = mysql_query("SELECT numero_usuario FROM usuarios where id=".$depostia_a." limit 1");$results = mysql_fetch_array($query); mysql_free_result($query);
-        $beneficiario = $results['numero_usuario'];
+//         $query = mysql_query("SELECT numero_usuario FROM usuarios where id=".$depostia_a." limit 1");$results = mysql_fetch_array($query); mysql_free_result($query);
+//         $beneficiario = $results['numero_usuario'];
         
-        if(@$id != NULL){
+//         if(@$id != NULL){
             // Session
-                $_SESSION["iniciada"]=1;
-                $_SESSION["id"] = $id;
-                $_SESSION["nombre"] = $usuario;
-                $_SESSION["usuario"] = $usuario;
-                $_SESSION["password"] = $password;
-                $_SESSION["celular"] = $celular;
-                $_SESSION["numero_patrocinador"] = $beneficiario;
-                header("Location:tuextra-user/index.php");
-        }else{
-            $_SESSION["iniciada"]=NULL;
-            header("Location:../index.php");
-            echo "<div style='text-align: center;'><span style='color: white;background-color: rgba(255, 0, 0, 0.7);padding: 4px;'>El usuario o contraseña no existe.</span></div>";
-        }
-    }
+    //             $_SESSION["iniciada"]=1;
+    //             $_SESSION["id"] = $id;
+    //             $_SESSION["nombre"] = $usuario;
+    //             $_SESSION["usuario"] = $usuario;
+    //             $_SESSION["password"] = $password;
+    //             $_SESSION["celular"] = $celular;
+    //             $_SESSION["numero_patrocinador"] = $beneficiario;
+    //             header("Location:tuextra-user/index.php");
+    //     }else{
+    //         $_SESSION["iniciada"]=NULL;
+    //         header("Location:../index.php");
+    //         echo "<div style='text-align: center;'><span style='color: white;background-color: rgba(255, 0, 0, 0.7);padding: 4px;'>El usuario o contraseña no existe.</span></div>";
+    //     }
+    // }
 ?>
 <!DOCTYPE html>
 <html lang="en">
