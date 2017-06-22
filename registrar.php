@@ -24,7 +24,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="como-funciona-text text-center">Reg&iacute;strate AHORA<br>
+                            <h2 class="como-funciona-text text-center">Reg&iacute;strate<br>
                     </div>
                 </div>
             </div>

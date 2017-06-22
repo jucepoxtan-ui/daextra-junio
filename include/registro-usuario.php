@@ -40,7 +40,7 @@
         <div class="row setup-content" id="nombre-usuario">
             <div class="col-xs-12">
                 <div class="col-md-12">
-                    <h3 class="text-center">Los primeros pasos son los más importantes</h3>
+                    <h3 class="text-center">Ingreta tus datos</h3>
                     <div class="col-md-6">
                         <div class="form-group">
                         <label class="control-label">Nombre de tu patrocinador</label>
