@@ -8,7 +8,8 @@
 
     <!-- LINKS META -->
     <?php include '../include/links-meta.php';?>
-        <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap3-editable.css">
         <!-- LINKS META -->
 
 </head>
@@ -96,6 +97,7 @@
                                     <hr>
                                     <h3 class="text-left">Número de tu patrocinador: <strong>{{ 1012129 }}</strong></h3>
                                     <h3 class="text-left">Número tarjeta: <strong>{{ 1234 5678 9101 1213 }}</strong></h3>
+                                    <h3 class="text-left">CLAVE interbancaria: <strong>{{ 18 Digitos }}</strong></h3>
                                     <h3 class="text-left">Banco de patrocinador: <strong>{{ Banamex (Salzado) }}</strong></h3>
                                     <h3 class="text-left">No. de Celular: <strong>{{ (229) 99 9999 }}</strong></h3>
                                     <h3 class="text-left">Correo Electrónico: <strong>{{ correo@mail.com }}</strong></h3>
@@ -103,6 +105,7 @@
                                     <h3 class="text-left">Comprobado: <strong>{{ SI }}</strong></h3>
                                     <br>
                                 </div>
+
                                 <div class="col-md-4 box-fileinput">
                                     <!-- SUBIR ARCHIVO -->
                                     <div class="fileinput text-center fileinput-new" data-provides="fileinput">
@@ -111,6 +114,8 @@
                                         </div>
                                         <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
                                         <div>
+                                        <!-- <label class="control-label">Folio de comprobante</label> -->
+                                            <input name=folio__depo type="text" required="required" class="form-control" placeholder="Folio de comprobante" />
                                             <span class="btn btn-raised btn-round btn-info btn-file">
                                     <span class="fileinput-new">ABRIR</span>
                                             <span class="fileinput-exists btn-info">Cambiar</span>
@@ -136,6 +141,7 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-4">
+                                        <div class="padding-20"></div>
                                             <h3 class="text-left">Nombre completo: <br>
                                             <strong>{{ Julio Alimaña }}</strong></h3>
 
@@ -156,7 +162,11 @@
                                                         <tr>         
                                                             <td>Numero de tarjeta</td>
                                                             <td><a href="#" id="numero-tarjeta-cambio" class="myeditable editable editable-click editable-empty" data-type="text" data-name="firstname" data-original-title="Cambia tu numero de tarjeta">1234 1212 5212 5232</a></td>
-                                                        </tr>  
+                                                        </tr>
+                                                        <tr>         
+                                                            <td>CLABE SPEI</td>
+                                                            <td><a href="#" id="clave-interbancaria-cambiar" class="myeditable editable editable-click editable-empty" data-type="text" data-name="firstname" data-original-title="CLABE SPEI">18 Digitos</a></td>
+                                                        </tr>   
                                                         <tr>         
                                                             <td>No de Celular</td>
                                                             <td><a href="#" id="celular-cambio" class="myeditable editable editable-click editable-empty" data-type="text" data-name="firstname" data-original-title="Cambia tu numero de celular">(222) 339 20 90</a></td>
@@ -164,8 +174,6 @@
                                                         
                                                     </tbody>
                                                 </table>
-                                                <button type="submit" class="editable-submit btn btn-success btn-md">Guardar</button>
-                                                <button type="button" class="editable-cancel btn btn-danger btn-md">cancel</button>
                                             </form>
                                         </div>
                                     </div>

@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="js/rellax-master/css/main.css">
     <link rel="stylesheet" href="js/masking-input/masking-input.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+<!--     <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/> -->
+
     <link rel="icon" href="img/favicon.png" type="image/png">
 
     <!-- CSS -->

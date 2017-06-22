@@ -18,11 +18,13 @@
             $('#banco-cambio').editable({
                 value: 1,    
                 source: [
-                      {value: 1, text: 'Bancomer'},
-                      {value: 2, text: 'Banamex'},
-                      {value: 3, text: 'Banorte'},
-                      {value: 3, text: 'Banorte'},
-
+                      {value: 1, text: 'BanCoppel'},
+                      {value: 2, text: 'Bancomer'},
+                      {value: 3, text: 'Banamex'},
+                      {value: 4, text: 'Banorte'},
+                      {value: 5, text: 'Banco Azteca'},
+                      {value: 6, text: 'Scotiabank'},
+                      {value: 7, text: 'Santander'},
                    ]
             });
         });
@@ -37,6 +39,12 @@
             pk: 1,
             // url: '/post',
             title: 'Cambia tu celular'
+        });
+        $('#clave-interbancaria-cambiar').editable({
+            type: 'text',
+            pk: 1,
+            // url: '/post',
+            title: 'CLABE SPEI 18 digitos'
         });
     </script>
     <script type="text/javascript">
