@@ -31,10 +31,11 @@
         </section>
     </header>
     <!-- HEADER -->
-        <div class="padding-50"></div>
+<div class="padding-20"></div>
+
     <div class="container">
         <div class="row">
-            <div class="col-md-12 caja-aviso">
+            <div class="col-md-12">
                 <h5 class="text-center"><strong>CONDICIONES DE USO Y AVISOS LEGALES DEL SITIO WEB WWW.DAEXTRA.NET </strong></h5>
                 <hr>
                 Estos términos y condiciones regirán el uso que usted haga del sitio Web ubicado en WWW.DAEXTRA.NET administrado por "DaExtra". Usted declara tener al menos 18 años de edad y que ha alcanzado la mayoría de edad en la provincia, región o país en el que reside, asimismo declara que toda la información que nos ha proporcionado es correcta.
@@ -161,7 +162,7 @@
                 <br>
                 Usted al hacer uso del sitio Web www.DaExtra.net acepta de manera expresa, que es completamente responsable del uso que le de, además usted tiene el compromiso y la responsabilidad de pagar sus impuestos acorde al ingreso obtenido, por lo que no hacerlo usted entiende que es completamente su responsabilidad y deberá enfrentar las consecuencias que imponga el fisco, como pueden ser multas o carcel.
                 <br>
-                18.- El uso del sistema que ofrece DaExtra ES RESPONSABILIDAD DE QUIEN LO USA.
+                <strong>18. El uso del sistema que ofrece DaExtra</strong> ES RESPONSABILIDAD DE QUIEN LO USA.
             </div>
         </div>
     </div>

@@ -21,7 +21,9 @@
   color: gray;
   padding: 20px 0 20px 0;
 }*/
-
+.img__daextra {
+  width: 250px;
+}
 .parrafo-pregunta {
   font-size: 22px;
   font-weight: 800;

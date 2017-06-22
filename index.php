@@ -68,6 +68,10 @@
     <section class="daextra">
         <div class="container">
             <div class="col-md-12">
+            <figure>
+                <img src="img/debocaaboca-daextra@5x.png" class="img-responsive center-block img__daextra rellax" data-rellax-speed="-1" data-rellax-percentage="0" alt="">
+            </figure>
+            <div class="padding-20"></div>
                 <h2 class="h2-des text-center text-muli-100 rellax" data-rellax-speed="-1" data-rellax-percentage="0">
                     <b>DaExtra</b> es una red de apoyo financiero basado en el Networking y Crowdfunding funciona a través de la cooperación mutua de quienes en ella participan, por lo que ser parte de esta red es una manera de obtener un dinerito extra a corto plazo, y la posibilidad de tener ingresos muy buenos y residuales altos a mediano plazo.
                 </h2>
