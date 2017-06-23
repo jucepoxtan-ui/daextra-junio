@@ -13,6 +13,8 @@
     <script type="text/javascript"> $("#password").password('toggle');</script>
     <script type="text/javascript" src="js/input-pass.js"></script>
     <script type="text/javascript" src="js/bootstrap-editable.js"></script>
+    
+    <!-- SCRIPT DE EDITAR CAMPOR -->
     <script>
         $(function(){
             $('#banco-cambio').editable({
@@ -25,28 +27,49 @@
                       {value: 5, text: 'Banco Azteca'},
                       {value: 6, text: 'Scotiabank'},
                       {value: 7, text: 'Santander'},
-                   ]
+                        ]
             });
+            title: 'Cambia tu celular'
         });
+
         $('#numero-tarjeta-cambio').editable({
             type: 'text',
             pk: 1,
             // url: '/post',
             title: 'Cambia tu celular'
         });
+
         $('#celular-cambio').editable({
             type: 'text',
             pk: 1,
             // url: '/post',
             title: 'Cambia tu celular'
         });
+
         $('#clave-interbancaria-cambiar').editable({
             type: 'text',
             pk: 1,
             // url: '/post',
             title: 'CLABE SPEI 18 digitos'
         });
+
     </script>
+    <!-- SCRIPT DE EDITAR CAMPOS -->
+
+    <!-- MODAL PARA FICHA -->
+    <script>
+        $(document).ready(function() {
+        $('.thumbnail').click(function(){
+              $('.modal-body').empty();
+            var title = $(this).parent('a').attr("title");
+            $('.modal-title').html(title);
+            $($(this).parents('div').html()).appendTo('.modal-body');
+            $('#myModal').modal({show:true});
+        });
+        });
+    </script>
+    <!-- MODAL PARA FICHA -->
+
     <script type="text/javascript">
         $(document).ready(function () {
 

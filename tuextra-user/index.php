@@ -8,8 +8,8 @@
 
     <!-- LINKS META -->
     <?php include '../include/links-meta.php';?>
-    <link rel="icon" href="img/favicon.png" type="image/png">
-    <link rel="stylesheet" href="css/bootstrap3-editable.css">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <link rel="stylesheet" href="css/bootstrap3-editable.css">
         <!-- LINKS META -->
 
 </head>
@@ -47,7 +47,6 @@
                     </li>
                 </ul>
                 <!-- SALIR -->
-
             </div>
         </div>
     </nav>
@@ -114,7 +113,7 @@
                                         </div>
                                         <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
                                         <div>
-                                        <!-- <label class="control-label">Folio de comprobante</label> -->
+                                            <!-- <label class="control-label">Folio de comprobante</label> -->
                                             <input name=folio__depo type="text" required="required" class="form-control" placeholder="Folio de comprobante" />
                                             <span class="btn btn-raised btn-round btn-info btn-file">
                                     <span class="fileinput-new">ABRIR</span>
@@ -141,7 +140,7 @@
                                     <hr>
                                     <div class="row">
                                         <div class="col-md-4">
-                                        <div class="padding-20"></div>
+                                            <div class="padding-20"></div>
                                             <h3 class="text-left">Nombre completo: <br>
                                             <strong>{{ Julio Alimaña }}</strong></h3>
 
@@ -153,25 +152,25 @@
                                         <h2>Aquí podras cambiar tus datos</h2>
                                         <div class="col-md-8">
                                             <form class="form-inline editableform">
-                                                    <table id="user" class="table table-bordered table-striped">
-                                                    <tbody> 
-                                                        <tr>         
-                                                            <td width="30%" >Banco</td>
+                                                <table id="user" class="table table-bordered table-striped">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width="30%">Banco</td>
                                                             <td><a href="#" id="banco-cambio" class="myeditable editable editable-click editable-empty" data-type="select" data-pk="1" data-title="Selecciona">Banamex</a></td>
                                                         </tr>
-                                                        <tr>         
+                                                        <tr>
                                                             <td>Numero de tarjeta</td>
                                                             <td><a href="#" id="numero-tarjeta-cambio" class="myeditable editable editable-click editable-empty" data-type="text" data-name="firstname" data-original-title="Cambia tu numero de tarjeta">1234 1212 5212 5232</a></td>
                                                         </tr>
-                                                        <tr>         
+                                                        <tr>
                                                             <td>CLABE SPEI</td>
                                                             <td><a href="#" id="clave-interbancaria-cambiar" class="myeditable editable editable-click editable-empty" data-type="text" data-name="firstname" data-original-title="CLABE SPEI">18 Digitos</a></td>
-                                                        </tr>   
-                                                        <tr>         
+                                                        </tr>
+                                                        <tr>
                                                             <td>No de Celular</td>
                                                             <td><a href="#" id="celular-cambio" class="myeditable editable editable-click editable-empty" data-type="text" data-name="firstname" data-original-title="Cambia tu numero de celular">(222) 339 20 90</a></td>
-                                                        </tr>     
-                                                        
+                                                        </tr>
+
                                                     </tbody>
                                                 </table>
                                             </form>
@@ -186,12 +185,12 @@
                                                 <thead>
                                                     <tr>
                                                         <th class="text-center">#</th>
-                                                        <th>Nombre</th>
-                                                        <th>No. de Celular</th>
-                                                        <th>Correo Electrónico</th>
+                                                        <th class="text-center">Nombre</th>
+                                                        <th class="text-center">No. de Celular</th>
+                                                        <th class="text-center">Correo Electrónico</th>
                                                         <th class="text-center">Fecha de aportación</th>
                                                         <th class="text-center">Comprobante</th>
-                                                        <th class="text-center">Comprobado</th>
+                                                        <!-- <th class="text-center">Comprobado</th> -->
                                                         <th class="text-center">Eliminar</th>
                                                     </tr>
                                                 </thead>
@@ -204,18 +203,18 @@
                                                         <td>jucepoxtan@gmail.com</td>
                                                         <td class="text-center">12/04/2017</td>
                                                         <td class="text-center">
-                                                            <button type="button" rel="tooltip" class="btn btn-xs btn-info">
+                                                            <button type="button" rel="tooltip" class="btn btn-xs btn-info" data-toggle="modal" data-target="#deposito-ficha">
                                                                 <i class="material-icons">visibility</i> Ver
                                                             </button>
                                                         </td>
-                                                        <td class="text-center">
+                                                        <!-- <td class="text-center">
                                                             <button type="button" rel="tooltip" class="btn btn-xs btn-success">
                                                                 <i class="material-icons">done</i> SI
                                                             </button>
                                                             <button type="button" rel="tooltip" class="btn btn-xs btn-warning">
                                                                 <i class="material-icons">highlight_off</i> NO
                                                             </button>
-                                                        </td>
+                                                        </td> -->
                                                         <td class="td-actions text-center">
                                                             <button type="button" rel="tooltip" class="btn btn-danger" data-toggle="modal" data-target="#eliminar-usuario">
                                                                 <i class="material-icons">delete_forever</i> Eliminar
@@ -238,15 +237,15 @@
 
     <!-- FOOTER -->
     <?php include '../include/footer.php';?>
-        <!-- FOOTER -->
+    <!-- FOOTER -->
 
-        <!-- FOOTER -->
-        <?php include '../include/modals.php';?>
-            <!-- FOOTER -->
+    <!-- FOOTER -->
+    <?php include '../include/modals.php';?>
+    <!-- FOOTER -->
 
-            <!-- SCRIPTS -->
-            <?php include '../include/scripts.php';?>
-                <!-- SCRIPTS -->
+    <!-- SCRIPTS -->
+    <?php include '../include/scripts.php';?>
+    <!-- SCRIPTS -->
 
 </body>
 

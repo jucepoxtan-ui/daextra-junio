@@ -1,44 +1,37 @@
+MODAL REGISTRO -->
+<div class="modal fade" id="registro-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-notice">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
 
-    <!-- MODAL REGISTRO -->
-    <div class="modal fade" 
-        id="registro-modal" 
-        tabindex="-1" 
-        role="dialog" 
-        aria-labelledby="modal-" 
-        aria-hidden="true" 
-        style="display: none;">
-        <div class="modal-dialog modal-notice">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
-
-                    <figure>
-                        <img src="img/daextra-logo3x-white.png" class="center-block logo-extra-login" alt="">
-                    </figure>
-                </div>
-                <div class="modal-body">
-                    <div class="instruction">
-                        <div class="row">
-                            <div class="col-md-12">
+                <figure>
+                    <img src="img/daextra-logo3x-white.png" class="center-block logo-extra-login" alt="">
+                </figure>
+            </div>
+            <div class="modal-body">
+                <div class="instruction">
+                    <div class="row">
+                        <div class="col-md-12">
                             <div>
                             </div>
-                                <form method="post" action="tuextra-user/index.php" onsubmit="validar();">
+                            <form method="post" action="tuextra-user/index.php" onsubmit="validar();">
 
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <!-- NOMBRE DE USUARIO -->
-                                            <div class="form-group label-floating">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <!-- NOMBRE DE USUARIO -->
+                                        <div class="form-group label-floating">
 
-                                                <label class="control-label">
-                                                    Tu nombre completo
-                                                </label>
+                                            <label class="control-label">
+                                                Tu nombre completo
+                                            </label>
                                             <input type="text" class="form-control" name="usuario" required>
-                                            </div>
-                                            <!-- NOMBRE DE USUARIO -->
                                         </div>
-                                        <div class="col-md-6">
+                                        <!-- NOMBRE DE USUARIO -->
+                                    </div>
+                                    <div class="col-md-6">
                                         <!-- PATRICINADOR -->
-                                            <div class="form-group label-floating">
+                                        <div class="form-group label-floating">
 
                                             <label class="control-label">
                                                 Nombre de usuario de patrocinador
@@ -49,14 +42,14 @@
                                         <!-- PATROCINADOR -->
 
                                         <!-- CORREO ELECTRONICO -->
-                                            <div class="form-group label-floating">
+                                        <div class="form-group label-floating">
                                             <label class="control-label">
                                                 Correo Electronico
                                             </label>
 
-                                        <input type="email" class="form-control" name="email" required> 
-                                        <!-- CORREO ELECTRONICO -->
-                                    </div>
+                                            <input type="email" class="form-control" name="email" required>
+                                            <!-- CORREO ELECTRONICO -->
+                                        </div>
                                         <!-- LEFT -->
 
                                         <!-- BANCO -->
@@ -74,82 +67,81 @@
 
                                         <!-- CELULAR -->
                                         <div class="form-group label-floating">
-                                        <label class="control-label">No. de Celular</label>
-                                        <input id="tel" type="tel" name="phone" placeholder="(XXX) XXX-XXXX" pattern="\(\d{3}\) \d{3}\-\d{4}" class="masked form-control" title="10-digit number" required>
-                                        <!-- CELULAR -->
-                                    </div>
-
-                                        <!-- LEFT -->
+                                            <label class="control-label">No. de Celular</label>
+                                            <input id="tel" type="tel" name="phone" placeholder="(XXX) XXX-XXXX" pattern="\(\d{3}\) \d{3}\-\d{4}" class="masked form-control" title="10-digit number" required>
+                                            <!-- CELULAR -->
                                         </div>
 
-                                        <div class="col-md-6">
+                                        <!-- LEFT -->
+                                    </div>
+
+                                    <div class="col-md-6">
                                         <!-- RIGTH -->
-                                            <!-- NOMBRE DE USUARIO -->
-                                            <div class="form-group label-floating">
+                                        <!-- NOMBRE DE USUARIO -->
+                                        <div class="form-group label-floating">
 
-                                                <label class="control-label">
-                                                    Tu nombre de usuario
-                                                </label>
+                                            <label class="control-label">
+                                                Tu nombre de usuario
+                                            </label>
                                             <input type="text" class="form-control" name="usuario" required>
-                                            </div>
-                                            <!-- NOMBRE DE USUARIO -->
+                                        </div>
+                                        <!-- NOMBRE DE USUARIO -->
 
-                                            <!-- PASSWORD -->
-                                            <div class="form-group label-floating">
+                                        <!-- PASSWORD -->
+                                        <div class="form-group label-floating">
 
                                             <label class="control-label">
                                                 Password
                                             </label>
-                                                <input type="password" class="form-control" name="password" required> 
-                                            </div>
-                                            <!-- PASSWORD -->
+                                            <input type="password" class="form-control" name="password" required>
+                                        </div>
+                                        <!-- PASSWORD -->
 
                                         <!-- RIGHT -->
 
                                         <!-- TU EXTRA -->
-                                            <select class="select form-control" name="plan" placeholder="Choose an option" required>
+                                        <select class="select form-control" name="plan" placeholder="Choose an option" required>
                                             <option disabled selected class="disabled"> Tu plan</option>
                                             <option value="200">DX 200</option>
                                             <option value="500">DX 500</option>
-                                            </select>
+                                        </select>
                                         <!-- TU EXTRA -->
 
-                                            <div class="form-group label-floating">
-                                                <label class="control-label">
+                                        <div class="form-group label-floating">
+                                            <label class="control-label">
                                                 Tarjeta de Debito
-                                                </label>
+                                            </label>
 
-                                                <input id="cc" type="tel" name="ccnumber" placeholder="XXXX XXXX XXXX XXXX" pattern="\d{4} \d{4} \d{4} \d{4}" class="masked form-control" title="16 Digitus con clave lada" required>
-                                            </div>
+                                            <input id="cc" type="tel" name="ccnumber" placeholder="XXXX XXXX XXXX XXXX" pattern="\d{4} \d{4} \d{4} \d{4}" class="masked form-control" title="16 Digitus con clave lada" required>
                                         </div>
                                     </div>
-                                    
-                                    <div class="col-md-7">
+                                </div>
+
+                                <div class="col-md-7">
                                     <!-- CHECKBOX    -->
                                     <div class="checkbox center-block">
                                         <label>
-                                        <input type="checkbox" name="optionsCheckboxes" required>
-                                        <span class="checkbox-material">
+                                            <input type="checkbox" name="optionsCheckboxes" required>
+                                            <span class="checkbox-material">
                                             </span>Acepto los términos y condiciones
                                         </label>
                                     </div>
                                     <!-- CHECKBOX -->
-                                    </div>
+                                </div>
 
-                                    <br>
-                                    <div class="padding-20"></div>
-                                    <!-- SUBMIT -->
-                                    <input type="submit" name="registro" class="btn btn-entrar btn-block btn-centrado" value="Regístrate" style="background: #00BF40 !important;">
-                                    <!-- SUBMIT -->
+                                <br>
+                                <div class="padding-20"></div>
+                                <!-- SUBMIT -->
+                                <input type="submit" name="registro" class="btn btn-entrar btn-block btn-centrado" value="Regístrate" style="background: #00BF40 !important;">
+                                <!-- SUBMIT -->
 
-                                    </form>
-                                    <hr>
-                                    <div class="col-md-6">
-                                        <a href="aviso-de-privacidad.php" class="text-center center-block"><i class="fa fa-shield" aria-hidden="true"></i> Aviso de privacidad</a>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <a href="terminos-y-condiciones.php" class="text-center center-block"><i class="fa fa-shield" aria-hidden="true"></i> T&eacute;rminos y condiciones</a>
-                                    </div>
+                            </form>
+                            <hr>
+                            <div class="col-md-6">
+                                <a href="aviso-de-privacidad.php" class="text-center center-block"><i class="fa fa-shield" aria-hidden="true"></i> Aviso de privacidad</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="terminos-y-condiciones.php" class="text-center center-block"><i class="fa fa-shield" aria-hidden="true"></i> T&eacute;rminos y condiciones</a>
                             </div>
                         </div>
                     </div>
@@ -157,115 +149,115 @@
             </div>
         </div>
     </div>
-    <!-- MODAL REGISTRO -->
-    <!-- DX200 -->
-    <div class="modal fade" id="dx200-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog modal-notice">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="com-md-12">
-                            <div class="col-md-6">
-                                <figure>
-                                    <img src="img/dx200.png" class="img-responsive" alt="">
-                                </figure>
-                            </div>
-                            <div class="col-md-6">
-                                <h2>DX200</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, vitae laboriosam incidunt doloribus in sapiente iusto ea facilis ipsum, corporis provident, eligendi fugit. Architecto voluptates quaerat doloremque, temporibus quae! Nulla.</p>
-                            </div>
+</div>
+<!-- MODAL REGISTRO -->
+<!-- DX200 -->
+<div class="modal fade" id="dx200-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-notice">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="com-md-12">
+                        <div class="col-md-6">
+                            <figure>
+                                <img src="img/dx200.png" class="img-responsive" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>DX200</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, vitae laboriosam incidunt doloribus in sapiente iusto ea facilis ipsum, corporis provident, eligendi fugit. Architecto voluptates quaerat doloremque, temporibus quae! Nulla.</p>
                         </div>
                     </div>
                 </div>
-                <div class="moda-footer">
-                    
-                </div>
+            </div>
+            <div class="moda-footer">
+
             </div>
         </div>
     </div>
-    <!-- DX200 -->
+</div>
+<!-- DX200 -->
 
-    <!-- DX500 -->
-    <div class="modal fade" id="dx500-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog modal-notice">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="col-md-6">
-                                <figure>
-                                    <img src="img/dx500.png" class="img-responsive animated infinite pulse" alt="">
-                                </figure>
-                            </div>
-                            <div class="col-md-6">
-                                <h2>DX500</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere non cum laboriosam, odit consectetur maxime. Illum repellat impedit eaque veritatis distinctio voluptatum velit voluptates, quod tempora. Molestiae minus vero voluptas.</p>
-                            </div>
+<!-- DX500 -->
+<div class="modal fade" id="dx500-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-notice">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <figure>
+                                <img src="img/dx500.png" class="img-responsive animated infinite pulse" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>DX500</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere non cum laboriosam, odit consectetur maxime. Illum repellat impedit eaque veritatis distinctio voluptatum velit voluptates, quod tempora. Molestiae minus vero voluptas.</p>
                         </div>
                     </div>
                 </div>
-                <div class="moda-footer">
-                    
-                </div>
+            </div>
+            <div class="moda-footer">
+
             </div>
         </div>
     </div>
-    <!-- DX500 -->
+</div>
+<!-- DX500 -->
 
-    <!-- DX1000 -->
-    <div class="modal fade" id="dx1000-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog modal-notice">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-12">
+<!-- DX1000 -->
+<div class="modal fade" id="dx1000-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-notice">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
                         <h2 class="info-title text-center">DX1000</h2>
                         <figure>
                             <img class="img-responsive center-block" src="img/dx200.png" alt="">
                         </figure>
-                        
+
                         <p>Es el plan para aquellos que requieren montos mayores para proyectos más grandes, ningún proyecto es grande o pequeño para la mente humana pero la falta de fondos puede limitar, está desarrollado para pequeñas empresas, negocios establecidos o para aquellas personas que quieren realizar un proyecto en el corto plazo.
-                        <br>
-                        Diseñado para darle la vuelta al mundo, comprar el auto de tus sueños, poner el restaurante que quieres, pagarte la colegiatura de una universidad privada. </p>
-                        </div>
+                            <br> Diseñado para darle la vuelta al mundo, comprar el auto de tus sueños, poner el restaurante que quieres, pagarte la colegiatura de una universidad privada. </p>
                     </div>
                 </div>
-                <div class="moda-footer">
-                    
-                </div>
+            </div>
+            <div class="moda-footer">
+
             </div>
         </div>
     </div>
-    <!-- DX1000 -->
-       
-    <!-- MODAL ENTRAR -->
- <div class="modal fade" id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
+</div>
+<!-- DX1000 -->
+
+<!-- MODAL ENTRAR -->
+<div class="modal fade" id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
     <div class="modal-dialog caja-login modal-notice">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
 
-                    <figure>
-                        <img src="img/daextra-logo3x-white.png" class="center-block logo-extra-login" alt="">
-                    </figure>
+                <figure>
+                    <img src="img/daextra-logo3x-white.png" class="center-block logo-extra-login" alt="">
+                </figure>
             </div>
             <div class="modal-body">
                 <div class="instruction">
                     <div class="row">
                         <div class="col-md-12">
-                        <div>
-                            <h2 class="text-center">Iniciar sesi&oacute;n</h2>
-                        </div>
-                             <form method="post" action="index.php" >
+                            <div>
+                                <h2 class="text-center">Iniciar sesi&oacute;n</h2>
+                            </div>
+                            <form method="post" action="index.php">
                                 <div class="form-group label-floating">
                                     <label class="control-label">Correo Electronico</label>
                                     <input type="email" class="form-control" name="usuario">
@@ -278,8 +270,8 @@
                                 <input type="submit" name="login" class="btn btn-entrar btn-block btn-centrado" value="Entrar">
                             </form>
                             <hr>
-                                <div class="col-md-12 center-block">
-                            <a href="aviso-de-privacidad.php" class="text-center center-block">• Olvid&eacute; mi contraseña •</a>
+                            <div class="col-md-12 center-block">
+                                <a href="aviso-de-privacidad.php" class="text-center center-block">• Olvid&eacute; mi contraseña •</a>
                             </div>
                         </div>
                     </div>
@@ -288,10 +280,10 @@
         </div>
     </div>
 </div>
-    <!-- MODAL ENTRAR -->
+<!-- MODAL ENTRAR -->
 
 <!-- MODAL ELIMINAR -->
- <div class="modal fade" id="eliminar-usuario" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
+<div class="modal fade" id="eliminar-usuario" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
     <div class="modal-dialog modal-notice">
         <div class="modal-content">
             <div class="modal-header" style="background: #f44336;">
@@ -305,11 +297,12 @@
                                 <i class="material-icons" style="font-size: 100px;">delete_forever</i>
                                 <h4>¿Estas seguro que deseas eliminar este Extra?</h4>
                             </div>
-                            <br><hr>
+                            <br>
+                            <hr>
                             <div class="center-block">
                                 <input type="submit" name="login" class="btn btn-danger btn-block btn-centrado" value="Eliminar">
                             </div>
-                            
+
                             <hr>
                             <p class="text-center">Te recordamos que DaExtra se realiza de la confianza y hacemos lo posible por seguir con tu Extra</p>
                         </div>
@@ -319,28 +312,41 @@
         </div>
     </div>
 </div>
-    <!-- MODAL ELIMINAR -->
-	
-<div class="modal fade" id="deposito" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
-    <div class="modal-dialog modal-notice">
+<!-- MODAL ELIMINAR -->
+
+<!-- MODAL FICHA DE DEPOSITO -->
+<div tabindex="-1" class="modal fade" id="deposito-ficha" role="dialog">
+    <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
             </div>
             <div class="modal-body">
-                <div class="instruction">
-                    <div class="row">
-                        <div class="col-md-12">
-							<div>
-								<figure>
-									<img src="img/img.png" class="center-block logo-extra-login" id="deposito-user" alt="" style="width:100%">
-								</figure>
-							</div>
-                        </div>
-                    </div>
+                <figure>
+                    <img src="../img/ficha-depo.png" class="img-responsive center-block" alt="">
+                </figure>
+            </div>
+            <hr>
+            <div class="modal-footer">
+                <div class="col-md-12 center-block">
+                    <!-- FOLIO DE DEPOSITO -->
+                    <h3 class="text-center">
+                        {{FOLIO DE DEPOSITO}}
+                    </h3>
+                    <!-- FOLIO DE DEPOSITO -->
+                </div>
+                <div class="col-md-12" style="text-align: center;">
+                    <h5>Comprobado</h5>
+                    <button type="button" rel="tooltip" class="btn btn-xs btn-success">
+                        <i class="material-icons">done</i> SI
+                    </button>
+                    <button type="button" rel="tooltip" class="btn btn-xs btn-warning">
+                        <i class="material-icons">highlight_off</i> NO
+                    </button>
                 </div>
             </div>
         </div>
     </div>
 </div>
-    <!-- MODAL ENTRAR -->
+<!-- MODAL FICHA DE DEPOSITO -->
+<!-- MODAL ENTRAR
