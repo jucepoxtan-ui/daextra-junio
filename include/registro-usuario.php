@@ -43,7 +43,7 @@
                     <h3 class="text-center">Ingreta tus datos</h3>
                     <div class="col-md-6">
                         <div class="form-group">
-                        <label class="control-label">Nombre de tu patrocinador</label>
+                        <label class="control-label">Alias de patrocinador</label>
                             <input name="patrocinador" maxlength="20" type="text" required="required" class="form-control" placeholder="e.g. CarlosA20100" />
                         </div>
                     </div>
@@ -55,14 +55,14 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                        <label class="control-label">Tu nombre de usuario</label>
-                            <input name="usuario" maxlength="40" type="text" required="required" class="form-control" placeholder="e.g. Minombre2003" />
+                        <label class="control-label">Tu alias</label>
+                            <input name="usuario" maxlength="40" type="text" required="required" class="form-control" placeholder="e.g. TuAlias2009" />
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                        <label class="control-label">Password</label>
-                            <input type="password" class="form-control" name="password" required placeholder="El nombre del perro no cuenta"> 
+                        <label class="control-label">Tu password</label>
+                            <input type="password" class="form-control" name="password" required placeholder="Se crativo integra varias palabras"> 
                         </div>
                     </div>
                     <button class="btn btn-primary nextBtn btn-lg pull-right" type="button">S&iacute;guiente</button>
@@ -73,24 +73,30 @@
             <div class="col-xs-12">
                 <div class="col-md-12">
                     <h3 class="text-center">Los datos más importantes toma tu tiempo</h3>
-                    <div class="col-md-6">
-                        <select class="select form-control" name="plan" placeholder="Seleciona tu plan" required>
+                    <div class="col-md-4">
+                        <select class="select form-control select__padding" name="plan" placeholder="Seleciona tu plan" required>
                             <option disabled selected class="disabled"> Tu plan</option>
                             <option value="200">DX 200</option>
                             <option value="500">DX 500</option>
+                            <option value="1000">DX 1000</option>
                         </select>
                     </div>
-                    <div class="col-md-6">
-                        <select class="select form-control" name="banco" placeholder="Selecciona tu banco" required>
+                    <div class="col-md-4">
+                        <select class="select form-control select__padding" name="banco" placeholder="Selecciona tu banco" required>
                             <option disabled selected class="disabled"> Banco</option>
                             <option value="1">BanCoppel</option>
-                            <option value="2">Banamex (Saldazo) </option>
+                            <option value="2">Banamex (Saldazo)</option>
                             <option value="3">Bancomer</option>
                             <option value="4">Banco Azteca</option>
                             <option value="5">Banorte</option>
                             <option value="6">Scotiabank</option>
                             <option value="7">Santander</option>
                         </select>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="is-empty">
+                        <input name="clabe-interbancaria" maxlength="18" type="text" value="" placeholder="CLABE Interbancaria 18 digitos" class="form-control">
+                        <span class="material-input"></span></div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">

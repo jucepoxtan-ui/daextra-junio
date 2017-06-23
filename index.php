@@ -69,9 +69,8 @@
         <div class="container">
             <div class="col-md-12">
             <figure>
-                <img src="img/debocaaboca-daextra@5x.png" class="img-responsive center-block img__daextra rellax" data-rellax-speed="-1" data-rellax-percentage="0" alt="">
+                <img src="img/debocaaboca-daextra@5x.png" class="img-responsive center-block img__daextra rellax animated infinite pulse" data-rellax-speed="1" data-rellax-percentage="0" alt="">
             </figure>
-            <div class="padding-20"></div>
                 <h2 class="h2-des text-center text-muli-100 rellax" data-rellax-speed="-1" data-rellax-percentage="0">
                     <b>DaExtra</b> es una red de apoyo financiero basado en el Networking y Crowdfunding funciona a través de la cooperación mutua de quienes en ella participan, por lo que ser parte de esta red es una manera de obtener un dinerito extra a corto plazo, y la posibilidad de tener ingresos muy buenos y residuales altos a mediano plazo.
                 </h2>
@@ -129,11 +128,12 @@
                         <h4>• Te invitan a la red de DaExtra</h4>
                         <h4>• Te <button class="btn btn-success btn-sm" data-toggle="modal" data-target="#registro-modal">Regístras</button> en el portal.</h4>
                         <h4>• Escoge un plan de aportación mensual acorde a tu capacidad económica.
-
+                        <br>
                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#dx200-modal">DX200</button>
                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#dx500-modal">DX500</button>
+                        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#dx1000-modal">DX1000</button>
                         </h4>
-                        
+                        <h4>• Pago de la anualidad.</h4>
                         <h4>• Haz tu aportación a tu patrocinador.</h4>
                         <h4>• Invita a 4 amigos.</h4>
                         <h4>• Se repite el ciclo <i class="fa fa-refresh fa-spin fa-fw"></i></h4>

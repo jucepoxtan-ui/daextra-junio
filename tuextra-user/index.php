@@ -97,7 +97,7 @@
                                     <hr>
                                     <h3 class="text-left">Número de tu patrocinador: <strong>{{ 1012129 }}</strong></h3>
                                     <h3 class="text-left">Número tarjeta: <strong>{{ 1234 5678 9101 1213 }}</strong></h3>
-                                    <h3 class="text-left">CLAVE interbancaria: <strong>{{ 18 Digitos }}</strong></h3>
+                                    <h3 class="text-left">CLABE interbancaria: <strong>{{ 18 Digitos }}</strong></h3>
                                     <h3 class="text-left">Banco de patrocinador: <strong>{{ Banamex (Salzado) }}</strong></h3>
                                     <h3 class="text-left">No. de Celular: <strong>{{ (229) 99 9999 }}</strong></h3>
                                     <h3 class="text-left">Correo Electrónico: <strong>{{ correo@mail.com }}</strong></h3>
