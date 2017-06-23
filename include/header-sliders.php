@@ -13,7 +13,9 @@
                                     Date la oportunidad de dar y recibir. 
                                 </h3>
                                 <h3 class="animated bounceInLeft">
-                                    El &uacute;nico movimiento que busca el colectivismo.
+                                    <p class="text-center">
+                                        El &uacute;nico movimiento que busca el colectivismo financiero.
+                                    </p>
                                 </h3>
                                 <a href="#" class="btn btn-entrar animated flipInX" style="background: #00BF40 !important;" data-toggle="modal" data-target="#registro-modal">Reg&iacute;strate</a>
                                 <div class="ripple-container"></div>

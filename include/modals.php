@@ -217,6 +217,35 @@
         </div>
     </div>
     <!-- DX500 -->
+
+    <!-- DX1000 -->
+    <div class="modal fade" id="dx1000-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-notice">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h2 class="info-title text-center">DX1000</h2>
+                        <figure>
+                            <img class="img-responsive center-block" src="img/dx200.png" alt="">
+                        </figure>
+                        
+                        <p>Es el plan para aquellos que requieren montos mayores para proyectos más grandes, ningún proyecto es grande o pequeño para la mente humana pero la falta de fondos puede limitar, está desarrollado para pequeñas empresas, negocios establecidos o para aquellas personas que quieren realizar un proyecto en el corto plazo.
+                        <br>
+                        Diseñado para darle la vuelta al mundo, comprar el auto de tus sueños, poner el restaurante que quieres, pagarte la colegiatura de una universidad privada. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="moda-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DX1000 -->
        
     <!-- MODAL ENTRAR -->
  <div class="modal fade" id="noticeModal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">

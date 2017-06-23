@@ -908,6 +908,9 @@ Licensed under MIT
         font-size: 50px;
         left: 17px;
     }
+   .info-title {
+    font-size: 40px !important;
+   }
 
 }
 /*TESTIMONIOS*/
@@ -998,9 +1001,16 @@ Licensed under MIT
   .formato__registro {
   padding: 15px;
   }
+  .pregunta-h3 {
+    font-size: 43px;
+  }
+  .info-title
 /*  .carousel-inner {
     height: 1250px;
   }*/
+  .info-title {
+    font-size: 20px;
+  }
 }
 @media (max-width: 320px) {
 .img-bill-cartera-float {
@@ -1008,14 +1018,26 @@ Licensed under MIT
   padding: none !important;
   }
   .h2-slider-item {
-    font-size: 20px !important;
+    font-size: 22px !important;
   }
+  .pregunta-h3 {
+    font-size: 43px;
+  }
+  .info-title {
+    font-size: 20px;
+  } 
 }
 @media (max-width: 240px) {
   .navbar .navbar-brand .img-logo{
     width: 120px !important; 
     padding: 0;
     margin: 0;
+  }
+  .pregunta-h3 {
+    font-size: 43px;
+  }
+  .info-title {
+    font-size: 20px;
   }
 }
 

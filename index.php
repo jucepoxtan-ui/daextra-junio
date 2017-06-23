@@ -72,7 +72,7 @@
                 <img src="img/debocaaboca-daextra@5x.png" class="img-responsive center-block img__daextra rellax animated infinite pulse" data-rellax-speed="1" data-rellax-percentage="0" alt="">
             </figure>
                 <h2 class="h2-des text-center text-muli-100 rellax" data-rellax-speed="-1" data-rellax-percentage="0">
-                    <b>DaExtra</b> es una red de apoyo financiero basado en el Networking y Crowdfunding funciona a través de la cooperación mutua de quienes en ella participan, por lo que ser parte de esta red es una manera de obtener un dinerito extra a corto plazo, y la posibilidad de tener ingresos muy buenos y residuales altos a mediano plazo.
+                    <strong>DaExtra</strong> es una red de apoyo financiero basado en el Crowdfunding y el Networking que funciona a través de la cooperación mutua de quienes en ella participan. por lo que ser parte de esta red es una manera de financiar tus proyectos a corto plazo, sin deuda, y con la posibilidad de tener excelentes ingresos mensuales.
                 </h2>
             </div>
         </div>
@@ -94,18 +94,16 @@
                         data-rellax-speed="-1" data-rellax-percentage="0.9">
 
                             </figure>
-                            
                         </div>
 
                         <div class="col-md-6">
 
                         <h3 class="pregunta-h3">¿Por qué?</h3>
-                        <h4>• Porque siempre necesitas ese apoyo extra.</h4>
+                        <h4>• Porque siempre necesitas ese apoyo extra para realizar tus proyectos.</h4>
                         <h3 class="pregunta-h3">¿Para quiénes?</h3>
-                        <h4>• Para todos. Todos necesitamos dar y recibir un extra.</h4>
+                        <h4>• Para todos. Todos queremos realizar nuestros planes.</h4>
                         <h3 class="pregunta-h3">¿Desde cuándo?</h3>
-                        <h4>• Desde YA! <button class="btn btn-success btn-sm" data-toggle="modal" data-target="#registro-modal">Regístrate</button> y sé parte de esta red de apoyo económico.</h4>
-
+                        <h4>• Desde YA! y sé parte de esta red de apoyo económico.</h4>
                         </div>
                     </div>
                 </div>
@@ -133,7 +131,7 @@
                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#dx500-modal">DX500</button>
                         <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#dx1000-modal">DX1000</button>
                         </h4>
-                        <h4>• Pago de la anualidad.</h4>
+                        <h4>• Haces tu pago de anualidad por uso del la plataforma.</h4>
                         <h4>• Haz tu aportación a tu patrocinador.</h4>
                         <h4>• Invita a 4 amigos.</h4>
                         <h4>• Se repite el ciclo <i class="fa fa-refresh fa-spin fa-fw"></i></h4>
@@ -150,10 +148,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-
+                    <div class="padding-50"></div>
                     <img src="img/bill-daextra-icon-animated@4x.png" class="img-responsive center-block img-bill-cartera-float img-bill-daextra rellax animated infinite pulse hidden-xs" alt=""  data-rellax-speed="-3" data-rellax-percentage="0.3">
 
-                    <img src="img/img-extramoney-po.png" class="img-responsive center-block img-extramoney img-bill-daextra rellax" alt=""  data-rellax-speed="-3" data-rellax-percentage="0.4">
+                    <img src="img/img-extramoney-po.png" class="img-responsive center-block img-extramoney img-bill-daextra rellax" alt=""  data-rellax-speed="-1" data-rellax-percentage="0.1">
                 </div>
                 <div class="col-md-6 center-block">
                     <h2 class="text-rigth">Ideados acorde a tu nivel de ingreso y capacidad de apoyo.</h2>
@@ -162,7 +160,7 @@
                             <i class="material-icons">done_all</i>
                         </div>
                         <div class="description">
-                            <h4 class="info-title">DX200 = $200.00
+                            <h4 class="info-title">DX200 = $200
                             </h4>
                         </div>
                     </div>
@@ -171,7 +169,15 @@
                             <i class="material-icons">done_all</i>
                         </div>
                         <div class="description">
-                            <h4 class="info-title">DX500 = $500.00</h4>
+                            <h4 class="info-title aportacion-text">DX500 = $500</h4>
+                        </div>
+                    </div>
+                    <div class="info info-horizontal">
+                        <div class="icon icon-info">
+                            <i class="material-icons">done_all</i>
+                        </div>
+                        <div class="description">
+                            <h4 class="info-title aportacion-text">DX1000 = $1,000</h4>
                         </div>
                     </div>
                 </div>
@@ -193,8 +199,8 @@
                         <h1 class="text-center text-seguro text-muli-700">
                             SIEMPRE DISPONIBLE · CONFIABLE · SEGURO
                         </h1>
-                        <h5 class="text-center text-white">
-                        TODA LA INFORMACIÓN DE DAEXTRA ESTA DISPONIBLE 24/7, ES SEGURA Y ENCRIPTADA.</h5>
+                        <h3 class="text-center text-white text-uppercase">
+                        El dinero que recaudas va directamente a tu tarjeta de débito, sin intermediarios.</h3>
                     </div>
                 </div>
             </div>
