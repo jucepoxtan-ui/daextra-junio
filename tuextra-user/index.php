@@ -94,7 +94,7 @@
                                 <div class="col-md-8 text-input-id">
                                     <h2 class="text-left">INFORMACIÓN PARA DAR TU EXTRA</h2>
                                     <hr>
-                                    <h3 class="text-left">Número de tu patrocinador: <strong>{{ 1012129 }}</strong></h3>
+                                    <h3 class="text-left">Alias de patrocinador: <strong>{{ 1012129 }}</strong></h3>
                                     <h3 class="text-left">Número tarjeta: <strong>{{ 1234 5678 9101 1213 }}</strong></h3>
                                     <h3 class="text-left">CLABE interbancaria: <strong>{{ 18 Digitos }}</strong></h3>
                                     <h3 class="text-left">Banco de patrocinador: <strong>{{ Banamex (Salzado) }}</strong></h3>
