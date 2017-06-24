@@ -1,4 +1,4 @@
-MODAL REGISTRO -->
+<!-- MODAL REGISTRO -->
 <div class="modal fade" id="registro-modal" tabindex="-1" role="dialog" aria-labelledby="modal-" aria-hidden="true" style="display: none;">
     <div class="modal-dialog modal-notice">
         <div class="modal-content">
@@ -326,7 +326,6 @@ MODAL REGISTRO -->
                     <img src="../img/ficha-depo.png" class="img-responsive center-block" alt="">
                 </figure>
             </div>
-            <hr>
             <div class="modal-footer">
                 <div class="col-md-12 center-block">
                     <!-- FOLIO DE DEPOSITO -->
@@ -337,10 +336,10 @@ MODAL REGISTRO -->
                 </div>
                 <div class="col-md-12" style="text-align: center;">
                     <h5>Comprobado</h5>
-                    <button type="button" rel="tooltip" class="btn btn-xs btn-success">
+                    <button type="button" rel="tooltip" class="btn btn-md btn-success">
                         <i class="material-icons">done</i> SI
                     </button>
-                    <button type="button" rel="tooltip" class="btn btn-xs btn-warning">
+                    <button type="button" rel="tooltip" class="btn btn-md btn-warning">
                         <i class="material-icons">highlight_off</i> NO
                     </button>
                 </div>

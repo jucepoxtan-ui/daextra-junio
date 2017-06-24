@@ -236,7 +236,7 @@
     </div>
 
     <!-- FOOTER -->
-    <?php include '../include/footer.php';?>
+    <?php include '../include/footer-panel.php';?>
     <!-- FOOTER -->
 
     <!-- FOOTER -->
