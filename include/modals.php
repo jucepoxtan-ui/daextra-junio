@@ -271,7 +271,7 @@
                             </form>
                             <hr>
                             <div class="col-md-12 center-block">
-                                <a href="aviso-de-privacidad.php" class="text-center center-block">• Olvid&eacute; mi contraseña •</a>
+                                <a href="recuperar-pass.php" class="text-center center-block">• Olvid&eacute; mi contraseña •</a>
                             </div>
                         </div>
                     </div>

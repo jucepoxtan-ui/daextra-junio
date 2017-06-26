@@ -114,7 +114,7 @@
                                         <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
                                         <div>
                                             <!-- <label class="control-label">Folio de comprobante</label> -->
-                                            <input name=folio__depo type="text" required="required" class="form-control" placeholder="Folio de comprobante" />
+                                            <input name=folio__depo type="text" required="required" class="form-control" maxlength="18" placeholder="Folio de comprobante" />
                                             <span class="btn btn-raised btn-round btn-info btn-file">
                                     <span class="fileinput-new">ABRIR</span>
                                             <span class="fileinput-exists btn-info">Cambiar</span>
